@@ -2,11 +2,11 @@
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-int result = RemoveSecondDigit(number);
+int result = LeaveSecondDigit(number);
 Console.WriteLine($"{number} - > {result}");
 
 
-int RemoveSecondDigit (int num)
+int LeaveSecondDigit (int num)
 {
     int needDigit = (num / 10) % 10;
     return needDigit;
