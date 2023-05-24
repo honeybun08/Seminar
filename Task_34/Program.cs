@@ -39,11 +39,9 @@ int[] ElemCount(int[] arr)
 
 
 int [] array = CreateArrayRndInt(4, 100, 999);
-
 Console.Write("[");
 PrintArray(array, ",");
 Console.WriteLine("]");
-
 
 
 int [] elemCount = ElemCount(array);
