@@ -33,7 +33,7 @@ void ChangeFirstAndLastRows (int [,] matrix)
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
         int tmp = matrix [0,j];                            // first row
-        matrix [0,j] = matrix[matrix.GetLength(0) - 1, j];
+        matrix [0,j] = matrix[matrix.GetLength(0) - 1, j];  // last row
         matrix[matrix.GetLength(0) - 1, j] = tmp;
     }
 }
